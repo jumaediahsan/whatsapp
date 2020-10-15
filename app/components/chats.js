@@ -64,7 +64,7 @@ export default class Chats extends Component {
           }
           <View>
             <View style={{ flexDirection:'row', justifyContent:'space-between', width:280 }}>
-              <Text style={{ marginLeft:15, fontWeight:'600' }}>{x.first_name} {x.last_name}</Text>
+              <Text style={{ marginLeft:15, fontWeight:'600' }}>{x.first_name} {x.last_name} tea</Text>
               <Text style={{ color:'#333', fontSize:10 }}>{x.time}</Text>
             </View>
             <View style={{ flexDirection:'row', alignItems:'center' }}>
